@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+*.env
+*.venv
+.env
+venv/
+Pipfile.lock
+
+# Jupyter
+.ipynb_checkpoints
+
+# Model files
+models/*.pt
+models/*.onnx
+models/*.tflite
+models/*.pkl
+*.h5
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+*.swp
+*.bak
+*.tmp
+
+# Build
+dist/
+build/
+*.egg
+.eggs/
+
+# Unit test cache
+.pytest_cache/
+coverage.xml
+htmlcov/
